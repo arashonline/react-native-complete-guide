@@ -4,18 +4,20 @@ import {
   View
 } from "react-native";
 
+import Header from './components/Header'
 
 export default function App() {
  
 
   return (
-    <View >
+    <View style={styles.screen}>
+    <Header title='عدد سخت'/>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
-  screen: {
-    padding: 40
+  screen:{
+    flex:1
   }
 });
