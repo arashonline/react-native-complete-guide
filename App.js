@@ -5,13 +5,15 @@ import {
 } from "react-native";
 
 import Header from './components/Header'
+import StartGameScreen from './screens/StartGameScreen'
 
 export default function App() {
  
 
   return (
     <View style={styles.screen}>
-    <Header title='عدد سخت'/>
+    <Header title='Guess The Number'/>
+    <StartGameScreen />
     </View>
   );
 }
