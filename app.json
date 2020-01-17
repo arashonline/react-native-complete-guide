@@ -25,6 +25,11 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.aradmin.list"
+    },
+    "description": "First test to output",
+    "githubUrl": "https://github.com/arashonline/react-native-complete-guide"
   }
 }
